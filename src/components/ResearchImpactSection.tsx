@@ -3,12 +3,12 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import fireDevOne from "../media/fire-dev-one.jpg";
-import fireDevTwo from "../media/fire-dev-two.jpg";
-import fireDevThree from "../media/fire-dev-three.jpg";
-import fireDevFour from "../media/fire-dev-four.jpg";
+import fireDevOne from "../assets/fire-dev-one.jpg";
+import fireDevTwo from "../assets/fire-dev-two.jpg";
+import fireDevThree from "../assets/fire-dev-three.jpg";
+import fireDevFour from "../assets/fire-dev-four.jpg";
 
-import womanFire from "../media/woman-fire.jpg";
+import womanFire from "../assets/woman-fire.jpg";
 
 export function ResearchImpactSection() {
   const ref = useRef(null);
@@ -62,12 +62,9 @@ export function ResearchImpactSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-[var(--gold)] mb-4">
-            Research & Impact
-          </h2>
+          <h2 className="text-[var(--gold)] mb-4">Research & Impact</h2>
           <p className="text-white/70 max-w-3xl mx-auto">
-            Our ongoing development and the real-world impact on
-            communities
+            Our ongoing development and the real-world impact on communities
           </p>
         </motion.div>
 
@@ -113,14 +110,12 @@ export function ResearchImpactSection() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              The Three Stone Fire Company has distributed
-              hundreds of Three Stone Fires and continues to
-              advance the technology through structured
-              community feedback, field testing, and ongoing
-              research. Our development work focuses on
-              improving fuel efficiency, durability, usability,
-              and carbon reduction outcomes under real-world
-              cooking conditions.
+              The Three Stone Fire Company has distributed hundreds of Three
+              Stone Fires and continues to advance the technology through
+              structured community feedback, field testing, and ongoing
+              research. Our development work focuses on improving fuel
+              efficiency, durability, usability, and carbon reduction outcomes
+              under real-world cooking conditions.
             </motion.p>
           </motion.div>
 
@@ -152,9 +147,7 @@ export function ResearchImpactSection() {
             </motion.div>
 
             {/* TEXT BELOW IMAGE */}
-            <h4 className="text-[var(--gold)] mb-4">
-              {impactStory.title}
-            </h4>
+            <h4 className="text-[var(--gold)] mb-4">{impactStory.title}</h4>
             <p className="text-white/80 leading-relaxed">
               {impactStory.description}
             </p>

@@ -4,9 +4,9 @@ import { useRef } from "react";
 import { Heart, Eye, Wind } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import Health1 from "../media/smoke-kitchen1.jpg";
-import Health2 from "../media/smoke-kitchen2.jpg";
-import Health3 from "../media/smoke-kitchen3.jpg";
+import Health1 from "../assets/smoke-kitchen1.jpg";
+import Health2 from "../assets/smoke-kitchen2.jpg";
+import Health3 from "../assets/smoke-kitchen3.jpg";
 
 export function HealthSection() {
   const ref = useRef(null);
@@ -34,11 +34,7 @@ export function HealthSection() {
   ];
 
   return (
-    <section
-      id="health"
-      className="relative py-24 overflow-hidden"
-      ref={ref}
-    >
+    <section id="health" className="relative py-24 overflow-hidden" ref={ref}>
       {/* Gradient Background - Dark throughout */}
       <div className="absolute inset-0 bg-gradient-to-b from-[var(--charcoal)] via-[#2a2a2a] to-[#1a1a1a]" />
 
@@ -60,9 +56,9 @@ export function HealthSection() {
         >
           <h2 className="text-white mb-6">Health Benefits</h2>
           <p className="text-white/90 text-lg max-w-3xl mx-auto">
-            The conditions the women and their infants tied to
-            their backs must endure when using the old
-            Threestone Fire everyday are truly appalling.
+            The conditions the women and their infants tied to their backs must
+            endure when using the old Threestone Fire everyday are truly
+            appalling.
           </p>
         </motion.div>
 
@@ -82,13 +78,13 @@ export function HealthSection() {
               <ImageWithFallback
                 src={
                   [
-                    Health1, 
-                    Health2, 
-                    Health3
-                  //   "https://images.unsplash.com/photo-1723643343026-b42936dba48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwd29tYW4lMjBjaGlsZCUyMGNvb2tpbmclMjBmaXJlfGVufDF8fHx8MTc2MjYwMDAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-                  //   "https://images.unsplash.com/photo-1723643343026-b42936dba48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHYW1iaWFuJTIwbW90aGVyJTIwaW5mYW50JTIwdHJhZGl0aW9uYWwlMjBjb29raW5nfGVufDF8fHx8MTc2MjYwMDAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-                  //   "https://images.unsplash.com/photo-1588846798956-b1b48feac031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwZmFtaWx5JTIwY29va2luZyUyMHdvb2QlMjBmaXJlfGVufDF8fHx8MTc2MjYwMDAxM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-                  // 
+                    Health1,
+                    Health2,
+                    Health3,
+                    //   "https://images.unsplash.com/photo-1723643343026-b42936dba48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwd29tYW4lMjBjaGlsZCUyMGNvb2tpbmclMjBmaXJlfGVufDF8fHx8MTc2MjYwMDAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+                    //   "https://images.unsplash.com/photo-1723643343026-b42936dba48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHYW1iaWFuJTIwbW90aGVyJTIwaW5mYW50JTIwdHJhZGl0aW9uYWwlMjBjb29raW5nfGVufDF8fHx8MTc2MjYwMDAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+                    //   "https://images.unsplash.com/photo-1588846798956-b1b48feac031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwZmFtaWx5JTIwY29va2luZyUyMHdvb2QlMjBmaXJlfGVufDF8fHx8MTc2MjYwMDAxM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+                    //
                   ][index]
                 }
                 alt={`Gambian woman with infant using traditional fire - ${benefit.title}`}
@@ -105,9 +101,8 @@ export function HealthSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <blockquote className="text-white text-xl italic max-w-3xl mx-auto">
-            "Each Threestones Fire will begin to free them one
-            by one and as the Threestones Company Progresses,
-            their hardship will become history."
+            "Each Threestones Fire will begin to free them one by one and as the
+            Threestones Company Progresses, their hardship will become history."
           </blockquote>
         </motion.div>
       </div>

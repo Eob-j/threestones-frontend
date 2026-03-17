@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import HeroBanner from "../media/Hero-Banner.jpg";
+import HeroBanner from "../assets/Hero-Banner.jpg";
 
 export function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -51,8 +51,8 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          More than 2 billion people worldwide still rely on open fires and inefficient metal
-          manufactured stoves to prepare their meals.
+          More than 2 billion people worldwide still rely on open fires and
+          inefficient metal manufactured stoves to prepare their meals.
         </motion.p>
 
         <motion.p
@@ -88,14 +88,13 @@ export function HeroSection() {
   );
 }
 
-
 // import { motion } from "motion/react";
 // import { Button } from "./ui/button";
 // import { ChevronDown } from "lucide-react";
 // import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 // //images
-// import HeroBanner from "../media/Hero-Banner.jpg";
+// import HeroBanner from "../assets/Hero-Banner.jpg";
 
 // export function HeroSection() {
 //   const scrollToSection = (id: string) => {
@@ -105,7 +104,6 @@ export function HeroSection() {
 //     }
 //   };
 
-  
 //   return (
 //     <section
 //       id="hero"
@@ -135,7 +133,7 @@ export function HeroSection() {
 //           transition={{ duration: 0.8, delay: 0.3 }}
 //         >
 //           <h1 className="text-white mb-6 ">
-//             Clean Cooking for Healthier Lives and a Healthier Planet 
+//             Clean Cooking for Healthier Lives and a Healthier Planet
 //           </h1>
 //         </motion.div>
 //         <motion.p
@@ -144,10 +142,10 @@ export function HeroSection() {
 //           animate={{ opacity: 1, y: 0 }}
 //           transition={{ duration: 0.8, delay: 0.5 }}
 //         >
-//           More than 2 billion people worldwide still rely on open fires and inefficient metal 
-//           manufactured stoves to prepare their meals. These traditional methods consume 
-//           excessive fuel, damage the environment, and expose families, especially women and 
-//           children, to harmful household air pollution. 
+//           More than 2 billion people worldwide still rely on open fires and inefficient metal
+//           manufactured stoves to prepare their meals. These traditional methods consume
+//           excessive fuel, damage the environment, and expose families, especially women and
+//           children, to harmful household air pollution.
 //         </motion.p>
 
 //         <motion.p
@@ -156,10 +154,10 @@ export function HeroSection() {
 //           animate={{ opacity: 1, y: 0 }}
 //           transition={{ duration: 0.8, delay: 0.5 }}
 //         >
-//           At Three Stone Company, a non-profit making organisation, we believe clean cooking should be practical, affordable, and 
-//           culturally respectful. We work with three-stone cooking communities in The Gambia, 
+//           At Three Stone Company, a non-profit making organisation, we believe clean cooking should be practical, affordable, and
+//           culturally respectful. We work with three-stone cooking communities in The Gambia,
 //           redesigning the traditional fire using simple yet effective technology to make it more fuel
-//           efficient and environmentally friendly. 
+//           efficient and environmentally friendly.
 //         </motion.p>
 //         <motion.p
 //           className="text-white/90 text-xl md:text-2xl mb-12 max-w-3xl mx-auto"
@@ -167,9 +165,9 @@ export function HeroSection() {
 //           animate={{ opacity: 1, y: 0 }}
 //           transition={{ duration: 0.8, delay: 0.5 }}
 //         >
-//           Our solution reduces fuel use, lowers carbon emissions, and supports healthier homes — 
-//           while preserving the cooking traditions families depend on. 
-//           Cleaner cooking. Stronger communities. Lasting impact. 
+//           Our solution reduces fuel use, lowers carbon emissions, and supports healthier homes —
+//           while preserving the cooking traditions families depend on.
+//           Cleaner cooking. Stronger communities. Lasting impact.
 //         </motion.p>
 //         <motion.div
 //           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
@@ -191,5 +189,3 @@ export function HeroSection() {
 //     </section>
 //   );
 // }
-
-

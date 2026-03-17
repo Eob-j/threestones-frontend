@@ -1,13 +1,13 @@
 import { motion } from "motion/react";
 import { Shield, Flame, Lightbulb } from "lucide-react";
 
-import Beginning from "../media/beginning1.jpg";
-import Invention1 from "../media/invention1.jpg";
-import Production from "../media/production.jpg";
-import Distribution from "../media/stock-1.jpg";
-import Invention2 from "../media/invention2.jpg";
-import Invention3 from "../media/banner.jpg";
-import Stock from "../media/stock.jpg";
+import Beginning from "../assets/beginning1.jpg";
+import Invention1 from "../assets/invention1.jpg";
+import Production from "../assets/production.JPG";
+import Distribution from "../assets/stock-1.jpg";
+import Invention2 from "../assets/invention2.jpg";
+import Invention3 from "../assets/banner.jpg";
+import Stock from "../assets/stock.jpg";
 
 export function StartSection() {
   const milestones = [
@@ -35,8 +35,7 @@ export function StartSection() {
     {
       year: "May 2025",
       title: "Distribution",
-      description:
-        "Distribute 250 prototypes for field testing",
+      description: "Distribute 250 prototypes for field testing",
       image: Distribution,
     },
     {
@@ -88,7 +87,6 @@ export function StartSection() {
       style={{ scrollMarginTop: "5rem" }}
     >
       <div className="container mx-auto px-4 lg:px-8">
-
         {/* Header */}
         <motion.div
           className="text-center mb-16"
@@ -99,8 +97,8 @@ export function StartSection() {
         >
           <h2 className="text-[var(--gold)] mb-6">Our Beginning</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            In March 2025, we embarked on a journey to rediscover
-            and reinvent the traditional Three Stone Fire.
+            In March 2025, we embarked on a journey to rediscover and reinvent
+            the traditional Three Stone Fire.
           </p>
         </motion.div>
 
@@ -175,9 +173,7 @@ export function StartSection() {
                   <span className="text-[var(--gold)] text-sm">
                     {milestone.year}
                   </span>
-                  <h3 className="text-white mt-2 mb-2">
-                    {milestone.title}
-                  </h3>
+                  <h3 className="text-white mt-2 mb-2">{milestone.title}</h3>
                   <p className="text-white/80 text-sm leading-relaxed">
                     {milestone.description}
                   </p>
@@ -203,13 +199,10 @@ export function StartSection() {
                 <item.icon className="text-[var(--clay-red)]" size={32} />
               </div>
               <h4 className="mb-3 text-white">{item.title}</h4>
-              <p className="text-sm text-white/80">
-                {item.description}
-              </p>
+              <p className="text-sm text-white/80">{item.description}</p>
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );
@@ -220,14 +213,13 @@ export function StartSection() {
 // import { useRef } from "react";
 // import { Shield, Flame, Lightbulb } from "lucide-react";
 
-// import Beginning from "../media/beginning1.jpg";
-// import Invention1 from "../media/invention1.jpg";
-// import Production from "../media/production.jpg";
-// import Distribution from "../media/stock-1.jpg";
-// import Invention2 from "../media/invention2.jpg";
-// import Invention3 from "../media/banner.jpg";
-// import Stock from "../media/stock.jpg";
-
+// import Beginning from "../assets/beginning1.jpg";
+// import Invention1 from "../assets/invention1.jpg";
+// import Production from "../assets/production.JPG";
+// import Distribution from "../assets/stock-1.jpg";
+// import Invention2 from "../assets/invention2.jpg";
+// import Invention3 from "../assets/banner.jpg";
+// import Stock from "../assets/stock.jpg";
 
 // export function StartSection() {
 //   const ref = useRef(null);
@@ -241,7 +233,7 @@ export function StartSection() {
 //         "The Threestone Fire was improved to increase safety and durability whilst improving ergonomics",
 //       image: Beginning
 //         //image: "https://images.unsplash.com/photo-1633005622246-04892a507072?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGNvb2tpbmclMjBmaXJlJTIwc3RvbmVzfGVufDF8fHx8MTc2NzA5NzUyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-    
+
 //     },
 //     {
 //       year: "March 2025",
@@ -263,14 +255,14 @@ export function StartSection() {
 //       description:
 //         "Design distribution system. Distribute 250 prototypes to Threestone Carbon Manufacturers for field testing",
 //       image: Distribution
-          
+
 //     },
 //     {
 //       year: "June 2025",
 //       title: "Invention 2 additional to invention 1",
 //       description:
 //         "Additional Threestones triangles. Prototype test results equate to 50% reduction in fuel consumption, and C02 emissions. Leading up to a 90% reduction in harmful gases abosrbed by Threestone carbon credit manufacturers",
-//       image: Invention2    
+//       image: Invention2
 //     },
 //     {
 //       year: "December 2025",
