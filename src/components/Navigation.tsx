@@ -4,8 +4,7 @@ import { Menu, X } from "lucide-react";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] =
-    useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,8 +12,7 @@ export function Navigation() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () =>
-      window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToSection = (id: string) => {
@@ -39,9 +37,7 @@ export function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/95 backdrop-blur-sm shadow-md"
-          : "bg-transparent"
+        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-md" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8">
@@ -54,7 +50,7 @@ export function Navigation() {
             <h3
               className={`transition-colors ${isScrolled ? "text-[var(--charcoal)]" : "text-white"}`}
             >
-              Three Stone Company (Gambia)
+              Threestones Company (Gambia)
             </h3>
           </div>
 
@@ -65,9 +61,7 @@ export function Navigation() {
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
                 className={`transition-colors hover:text-[var(--clay-red)] ${
-                  isScrolled
-                    ? "text-[var(--charcoal)]"
-                    : "text-white"
+                  isScrolled ? "text-[var(--charcoal)]" : "text-white"
                 }`}
               >
                 {item.label}
@@ -84,15 +78,9 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             className={`md:hidden ${isScrolled ? "text-[var(--charcoal)]" : "text-white"}`}
-            onClick={() =>
-              setIsMobileMenuOpen(!isMobileMenuOpen)
-            }
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? (
-              <X size={24} />
-            ) : (
-              <Menu size={24} />
-            )}
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
