@@ -11,14 +11,13 @@ export function CircularSystemSection() {
     {
       color: "#9B59B6", // Purple
       label:
-        "Repeat customer investment in Three Stone Fire and Threestone's credit",
+        "Repeat customer investment in Threestones Fire and Threestone's credit",
       position: { x: 59, y: 15 }, // Top
       labelPosition: { x: 50, y: -5 },
     },
     {
       color: "#C96A45", // Clay Red (matching site theme)
-      label:
-        "Three Stone Fire operator produces Threestones credit.",
+      label: "Threestones Fire operator produces Threestones credit.",
       position: { x: 85, y: 59 }, // Right
       labelPosition: { x: 95, y: 35 },
     },
@@ -78,8 +77,7 @@ export function CircularSystemSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-[var(--gold)] mb-4">
-            Threestones Company System vs Mandatory UN Net Zero
-            System
+            Threestones Company System vs Mandatory UN Net Zero System
           </h2>
           <p className="text-white/70 max-w-3xl mx-auto">
             Comparison of the open circular regenerative system
@@ -93,16 +91,12 @@ export function CircularSystemSection() {
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <div
-            className="relative w-full"
-            style={{ paddingBottom: "100%" }}
-          >
+          <div className="relative w-full" style={{ paddingBottom: "100%" }}>
             <svg
               viewBox="0 0 100 100"
               className="absolute inset-0 w-full h-full"
               style={{
-                filter:
-                  "drop-shadow(0 0 20px rgba(226, 160, 55, 0.3))",
+                filter: "drop-shadow(0 0 20px rgba(226, 160, 55, 0.3))",
               }}
             >
               {/* Central circle with text */}
@@ -184,7 +178,7 @@ export function CircularSystemSection() {
                 fontSize="2.2"
                 fontWeight="600"
               >
-                Three Stones
+                Threestones
               </text>
               <text
                 x="50"
@@ -232,9 +226,7 @@ export function CircularSystemSection() {
                 <motion.g
                   key={index}
                   initial={{ opacity: 0, scale: 0 }}
-                  animate={
-                    isInView ? { opacity: 1, scale: 1 } : {}
-                  }
+                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
                   transition={{
                     duration: 0.5,
                     delay: 1.3 + index * 0.2,
@@ -292,24 +284,18 @@ export function CircularSystemSection() {
         >
           {/* Linear Diagram Header */}
           <div className="text-center mb-6">
-            <h3 className="text-white mb-2">
-              UN Net Zero Approach
-            </h3>
+            <h3 className="text-white mb-2">UN Net Zero Approach</h3>
             <p className="text-[var(--gold)]">
               Closed Linear Extraction System
             </p>
           </div>
 
-          <div
-            className="relative w-full"
-            style={{ paddingBottom: "40%" }}
-          >
+          <div className="relative w-full" style={{ paddingBottom: "40%" }}>
             <svg
               viewBox="0 0 100 40"
               className="absolute inset-0 w-full h-full"
               style={{
-                filter:
-                  "drop-shadow(0 0 15px rgba(201, 106, 69, 0.3))",
+                filter: "drop-shadow(0 0 15px rgba(201, 106, 69, 0.3))",
               }}
             >
               {/* Arrow marker for linear flow */}
@@ -340,9 +326,7 @@ export function CircularSystemSection() {
                   strokeDashoffset: 7,
                   strokeDasharray: "7 7",
                 }}
-                animate={
-                  isInView ? { strokeDashoffset: 0 } : {}
-                }
+                animate={isInView ? { strokeDashoffset: 0 } : {}}
                 transition={{ duration: 0.8, delay: 1.5 }}
               />
               <motion.line
@@ -357,9 +341,7 @@ export function CircularSystemSection() {
                   strokeDashoffset: 7,
                   strokeDasharray: "7 7",
                 }}
-                animate={
-                  isInView ? { strokeDashoffset: 0 } : {}
-                }
+                animate={isInView ? { strokeDashoffset: 0 } : {}}
                 transition={{ duration: 0.8, delay: 1.7 }}
               />
               <motion.line
@@ -374,9 +356,7 @@ export function CircularSystemSection() {
                   strokeDashoffset: 7,
                   strokeDasharray: "7 7",
                 }}
-                animate={
-                  isInView ? { strokeDashoffset: 0 } : {}
-                }
+                animate={isInView ? { strokeDashoffset: 0 } : {}}
                 transition={{ duration: 0.8, delay: 1.9 }}
               />
 
@@ -385,9 +365,7 @@ export function CircularSystemSection() {
                 <motion.g
                   key={index}
                   initial={{ opacity: 0, scale: 0 }}
-                  animate={
-                    isInView ? { opacity: 1, scale: 1 } : {}
-                  }
+                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
                   transition={{
                     duration: 0.5,
                     delay: 1.3 + index * 0.2,

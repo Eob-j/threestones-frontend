@@ -20,26 +20,22 @@ export function SystemComparisonSection() {
     {
       icon: CheckCircle,
       header: "UN Net Zero",
-      description:
-        "Private corporate money invested into cookstone.",
+      description: "Private corporate money invested into cookstone.",
     },
     {
       icon: Users,
-      header: "Three Stone People",
-      description:
-        "Tool operator produces product (carbon credit).",
+      header: "Threestones People",
+      description: "Tool operator produces product (carbon credit).",
     },
     {
       icon: CheckCircle,
       header: "UN Net Zero",
-      description:
-        "unverified product (carbon credit accuracy)",
+      description: "unverified product (carbon credit accuracy)",
     },
     {
       icon: ShoppingCart,
       header: "Customer",
-      description:
-        "Private corporate sale (for money and profit)",
+      description: "Private corporate sale (for money and profit)",
     },
     {
       icon: TrendingUp,
@@ -51,32 +47,30 @@ export function SystemComparisonSection() {
   const threeStoneSystemPoints = [
     {
       icon: Flame,
-      header: "Three Stone Company",
-      description:
-        "Money reinvested into tool (Threestone fire).",
+      header: "Threestones Company",
+      description: "Money reinvested into tool (Threestone fire).",
     },
     {
       icon: Users,
-      header: "Three Stone People",
-      description:
-        "Tool operator produces product (carbon credit).",
+      header: "Threestones People",
+      description: "Tool operator produces product (carbon credit).",
     },
     {
       icon: Video,
-      header: "Three Stone Company",
+      header: "Threestones Company",
       description:
-        "Three Stone Company AI integrates AI verification video system with over 90% accuracy.",
+        "Threestones Company AI integrates AI verification video system with over 90% accuracy.",
     },
     {
       icon: ShoppingCart,
       header: "Customer",
-      description: "Three Stone Company money and profit",
+      description: "Threestones Company money and profit",
     },
     {
       icon: RefreshCw,
-      header: "Three Stone Company",
+      header: "Threestones Company",
       description:
-        "Money reinvested into tool (Three Stone Fire) production and development.",
+        "Money reinvested into tool (Threestones Fire) production and development.",
     },
   ];
 
@@ -94,9 +88,7 @@ export function SystemComparisonSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-[var(--gold)] mb-6">
-            System Comparison
-          </h2>
+          <h2 className="text-[var(--gold)] mb-6">System Comparison</h2>
         </motion.div>
 
         {/* Comparison Grids */}
@@ -135,12 +127,8 @@ export function SystemComparisonSection() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-white mb-2">
-                      {point.header}
-                    </h4>
-                    <p className="text-white/70 text-sm">
-                      {point.description}
-                    </p>
+                    <h4 className="text-white mb-2">{point.header}</h4>
+                    <p className="text-white/70 text-sm">{point.description}</p>
                   </div>
                 </motion.div>
               ))}
@@ -181,12 +169,8 @@ export function SystemComparisonSection() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-white mb-2">
-                      {point.header}
-                    </h4>
-                    <p className="text-white/70 text-sm">
-                      {point.description}
-                    </p>
+                    <h4 className="text-white mb-2">{point.header}</h4>
+                    <p className="text-white/70 text-sm">{point.description}</p>
                   </div>
                 </motion.div>
               ))}

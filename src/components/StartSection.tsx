@@ -98,7 +98,7 @@ export function StartSection() {
           <h2 className="text-[var(--gold)] mb-6">Our Beginning</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
             In March 2025, we embarked on a journey to rediscover and reinvent
-            the traditional Three Stone Fire.
+            the traditional Threestones Fire.
           </p>
         </motion.div>
 

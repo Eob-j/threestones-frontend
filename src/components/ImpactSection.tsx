@@ -37,15 +37,12 @@ export function ImpactSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-[var(--gold)] mb-6">
-            Environmental Impact
-          </h2>
+          <h2 className="text-[var(--gold)] mb-6">Environmental Impact</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            Each new invention 1 Threestone Fire reduces
-            emissions by 1.5 tonnes C02 per annum. This
-            translates into 800kg of wood not being burned. The
-            wood remains living and growing in the forest nearby
-            the Threestone People.
+            Each new invention 1 Threestone Fire reduces emissions by 1.5 tonnes
+            C02 per annum. This translates into 800kg of wood not being burned.
+            The wood remains living and growing in the forest nearby the
+            Threestone People.
           </p>
         </motion.div>
 
@@ -72,9 +69,7 @@ export function ImpactSection() {
                     <motion.div
                       className="h-full bg-red-500 flex items-center justify-center"
                       initial={{ width: 0 }}
-                      animate={
-                        isInView ? { width: "100%" } : {}
-                      }
+                      animate={isInView ? { width: "100%" } : {}}
                       transition={{ duration: 1, delay: 0.3 }}
                     >
                       <span className="text-white text-sm px-4">
@@ -84,10 +79,10 @@ export function ImpactSection() {
                   </div>
                 </div>
 
-                {/* Invention One Three Stone Fire */}
+                {/* Invention One Threestones Fire */}
                 <div>
                   <div className="flex justify-between mb-2 text-white/90">
-                    <span>Invention One Three Stone Fire</span>
+                    <span>Invention One Threestones Fire</span>
                   </div>
                   <div className="h-10 bg-green-200 rounded-full overflow-hidden relative flex">
                     <motion.div
@@ -118,9 +113,7 @@ export function ImpactSection() {
                 {/* Invention Two Threestone Triangles */}
                 <div>
                   <div className="flex justify-between mb-2 text-white/90">
-                    <span>
-                      Invention Two Threestone Triangles
-                    </span>
+                    <span>Invention Two Threestone Triangles</span>
                   </div>
                   <div className="h-10 bg-emerald-200 rounded-full overflow-hidden relative flex">
                     <motion.div
@@ -176,10 +169,9 @@ export function ImpactSection() {
           transition={{ duration: 0.6, delay: 1 }}
         >
           <p className="text-white/90 text-lg mb-6">
-            Estimated global CO2 reduction of fully enacted
-            Three Stone Company industrial manufacturing,
-            distribution, production and invention number 3
-            human video to AI verification system.
+            Estimated global CO2 reduction of fully enacted Threestones Company
+            industrial manufacturing, distribution, production and invention
+            number 3 human video to AI verification system.
           </p>
           <div className="inline-block bg-gradient-to-br from-[var(--forest-green)]/20 to-[var(--gold)]/20 border-2 border-[var(--gold)] rounded-lg px-8 py-4">
             <h3 className="text-[var(--gold)]">

@@ -25,13 +25,13 @@ export function ResearchImpactSection() {
       image: fireDevTwo,
       title: "Engineering Innovation",
       description:
-        "Developing and refining the Three Stone Fire design to maximize efficiency and minimize environmental impact.",
+        "Developing and refining the Threestones Fire design to maximize efficiency and minimize environmental impact.",
     },
     {
       image: fireDevThree,
       title: "Data & Climate Research",
       description:
-        "Analyzing carbon emission data and tracking environmental impact across communities using the Three Stone Fire.",
+        "Analyzing carbon emission data and tracking environmental impact across communities using the Threestones Fire.",
     },
     {
       image: fireDevFour,
@@ -110,7 +110,7 @@ export function ResearchImpactSection() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              The Three Stone Fire Company has distributed hundreds of Three
+              The Threestones Fire Company has distributed hundreds of Three
               Stone Fires and continues to advance the technology through
               structured community feedback, field testing, and ongoing
               research. Our development work focuses on improving fuel

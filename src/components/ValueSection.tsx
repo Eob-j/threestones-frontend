@@ -1,18 +1,8 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
-import {
-  Settings,
-  Scale,
-  Wind,
-  Thermometer,
-} from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Settings, Scale, Wind, Thermometer } from "lucide-react";
 
 export function ValueSection() {
   const ref = useRef(null);
@@ -22,8 +12,7 @@ export function ValueSection() {
     {
       icon: Settings,
       title: "Safety First",
-      description:
-        "Improved design prevents accidents and burns",
+      description: "Improved design prevents accidents and burns",
       details:
         "The improved design prevents accidents and burns. Old Threestone fires are very prone to sudden collaspe due to heat erosion with the potential to cause serious accidents with boiling contents of cooking pots. Our Threestone Fires material and physical design eliminate the problem. It further reduces harmful gasses from infecting women and children which could lead to early and infant deaths.",
       color: "var(--clay-red)",
@@ -71,9 +60,8 @@ export function ValueSection() {
             The Value of Innovation
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            Every element of the new Threestones Fire has been
-            reimagined for maximum efficiency, safety and
-            environmental impact.
+            Every element of the new Threestones Fire has been reimagined for
+            maximum efficiency, safety and environmental impact.
           </p>
         </motion.div>
 
@@ -96,22 +84,13 @@ export function ValueSection() {
                       backgroundColor: `${feature.color}30`,
                     }}
                   >
-                    <feature.icon
-                      size={28}
-                      style={{ color: feature.color }}
-                    />
+                    <feature.icon size={28} style={{ color: feature.color }} />
                   </div>
-                  <CardTitle className="text-white">
-                    {feature.title}
-                  </CardTitle>
+                  <CardTitle className="text-white">{feature.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="mb-3 text-white/90">
-                    {feature.description}
-                  </p>
-                  <p className="text-sm text-white/70">
-                    {feature.details}
-                  </p>
+                  <p className="mb-3 text-white/90">{feature.description}</p>
+                  <p className="text-sm text-white/70">{feature.details}</p>
                 </CardContent>
               </Card>
             </motion.div>
@@ -128,9 +107,7 @@ export function ValueSection() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-center">
               <div className="bg-red-950/40 border border-red-800/30 rounded-lg p-6 mb-4">
-                <h4 className="text-red-400 mb-4">
-                  Traditional Fire
-                </h4>
+                <h4 className="text-red-400 mb-4">Traditional Fire</h4>
                 <div className="space-y-2 text-sm text-white/80">
                   <p>❌ 100% fuel consumption</p>
                   <p>❌ High smoke output</p>
@@ -142,7 +119,7 @@ export function ValueSection() {
             <div className="text-center">
               <div className="bg-green-950/40 border border-green-800/30 rounded-lg p-6 mb-4">
                 <h4 className="text-[var(--forest-green)] mb-4">
-                  Three Stone Fire
+                  Threestones Fire
                 </h4>
                 <div className="space-y-2 text-sm text-white/80">
                   <p>✅ 30-50% less fuel</p>

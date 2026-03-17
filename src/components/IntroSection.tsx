@@ -28,12 +28,12 @@ export function IntroSection() {
                 administrators.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                The Threestone People (2.5 billion) - manufacturers,
+                The Threestones People (2.5 billion) - manufacturers,
                 distributors, Threestone carbon credit producers and owners of
                 the Threestone Company.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                The Three Stone Fire Company has distributed hundreds of Three
+                The Threestones Fire Company has distributed hundreds of Three
                 Stone Fires and continues to advance the technology through
                 structured community feedback, field testing, and ongoing
                 research.
@@ -59,7 +59,7 @@ export function IntroSection() {
             <div className="max-w-[500px] mx-auto">
               <ImageWithFallback
                 src={WhoWeAre}
-                alt="Three Stone People community"
+                alt="Threestones People community"
                 className="w-full h-auto object-cover"
               />
             </div>

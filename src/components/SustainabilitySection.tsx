@@ -58,18 +58,16 @@ export function SustainabilitySection() {
             Global Incorruptible Sustainable System
           </h2>
           <p className="text-white/90 text-lg max-w-4xl mx-auto leading-relaxed">
-            When a private customer invests in an invention 1
-            Threestones Fire with a one year maintenence
-            contract. They invest in the manufacture,
-            distribution, recording and maintenance of that
-            Three Stone Fire. After one year the same Three
-            Stone Fire is replaced or maintained using finance
-            from the sale of the Three Stone Credits it produces
-            to people and companies to hold permanent verified
-            commercial carbon reductions. The customer by making
-            the initial one off capital investment has started a
-            single financially sustaining circular system which
-            reduces global C02 emissions every year forever.
+            When a private customer invests in an invention 1 Threestone Fire
+            with a one year maintenence contract. They invest in the
+            manufacture, distribution, recording and maintenance of that
+            Threestone Fire. After one year the same Threestones Fire is
+            replaced or maintained using finance from the sale of the Three
+            Stone Credits it produces to people and companies to hold permanent
+            verified commercial carbon reductions. The customer by making the
+            initial one off capital investment has started a single financially
+            sustaining circular system which reduces global C02 emissions every
+            year forever.
           </p>
         </motion.div>
 
@@ -85,9 +83,10 @@ export function SustainabilitySection() {
           </h3>
 
           <p className="text-white/90 text-lg leading-relaxed mb-6">
-            Three Stone Company was established to deliver social and environmental benefits to the
-            three-stone cooking communities of The Gambia. By applying simple yet sophisticated
-            technology, we redesign the traditional three-stone fire to make it:
+            Threestones Company was established to deliver social and
+            environmental benefits to the three-stone cooking communities of The
+            Gambia. By applying simple yet sophisticated technology, we redesign
+            the traditional three-stone fire to make it:
           </p>
 
           <ul className="list-disc list-inside text-white/90 text-lg leading-relaxed mb-6 space-y-2">
@@ -97,8 +96,9 @@ export function SustainabilitySection() {
           </ul>
 
           <p className="text-white/90 text-lg leading-relaxed">
-            Our approach respects cultural cooking practices while creating healthier homes,
-            protecting natural resources, and supporting sustainable development.
+            Our approach respects cultural cooking practices while creating
+            healthier homes, protecting natural resources, and supporting
+            sustainable development.
           </p>
         </motion.div>
 
@@ -121,17 +121,10 @@ export function SustainabilitySection() {
               }}
             >
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--gold)]/20 mb-4">
-                <impact.icon
-                  className="text-[var(--gold)]"
-                  size={28}
-                />
+                <impact.icon className="text-[var(--gold)]" size={28} />
               </div>
-              <div className="text-3xl text-white mb-2">
-                {impact.number}
-              </div>
-              <p className="text-white/80 text-sm">
-                {impact.label}
-              </p>
+              <div className="text-3xl text-white mb-2">{impact.number}</div>
+              <p className="text-white/80 text-sm">{impact.label}</p>
             </motion.div>
           ))}
         </div>
@@ -144,8 +137,8 @@ export function SustainabilitySection() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <p className="text-[var(--gold)] text-xl italic">
-            From the Three Stone People of Gambia - structurally
-            incorruptible sustainable impact one fire at a time.
+            From the Threestones People of Gambia - structurally incorruptible
+            sustainable impact one fire at a time.
           </p>
         </motion.div>
       </div>
