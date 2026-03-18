@@ -3,7 +3,7 @@ import { Shield, Flame, Lightbulb } from "lucide-react";
 
 import Beginning from "/assets/beginning1.jpg";
 import Invention1 from "/assets/invention1.jpg";
-import Production from "/assets/production.jpg";
+import Production from "/assets/production.JPG";
 import Distribution from "/assets/stock-1.jpg";
 import Invention2 from "/assets/invention2.jpg";
 import Invention3 from "/assets/banner.jpg";
