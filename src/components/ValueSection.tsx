@@ -22,7 +22,7 @@ export function ValueSection() {
       title: "Fire Combustion Control",
       description: "Optimized fuel restraint and heat supply",
       details:
-        "The alternative way in which a wood fire burns is controlled by changing the position of the newly designed triangles (invention 2), to achieve maximum heat from the wood fuel. ",
+        "The alternative way in which a wood fire burns is controlled by changing the position stones, to achieve maximum heat from the wood fuel. ",
       color: "var(--gold)",
     },
     {
@@ -60,7 +60,7 @@ export function ValueSection() {
             The Value of Innovation
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            Every element of the new Threestones Fire has been reimagined for
+            Every element of the new Threestones has been reimagined for
             maximum efficiency, safety and environmental impact.
           </p>
         </motion.div>
@@ -122,7 +122,7 @@ export function ValueSection() {
                   Threestones Fire
                 </h4>
                 <div className="space-y-2 text-sm text-white/80">
-                  <p>✅ 30-50% less fuel</p>
+                  <p>✅ 50% less fuel</p>
                   <p>✅ 90% smoke reduction</p>
                   <p>✅ Enhanced safety</p>
                   <p>✅ Optimal heat retention</p>

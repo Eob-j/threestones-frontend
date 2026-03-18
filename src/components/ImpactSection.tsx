@@ -39,10 +39,7 @@ export function ImpactSection() {
         >
           <h2 className="text-[var(--gold)] mb-6">Environmental Impact</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            Each new invention 1 Threestone Fire reduces emissions by 1.5 tonnes
-            C02 per annum. This translates into 800kg of wood not being burned.
-            The wood remains living and growing in the forest nearby the
-            Threestone People.
+            Each new invention no 2 (double fire) reduces emission by 2 tonnes CO2 per annum. This translate to 2 tonnes of firewoods not being burn. Invention 2 threestones triangles to invention 2 double threestones fire. The wood remains living and growing in the forest nearby the Threestone People.
           </p>
         </motion.div>
 
@@ -171,7 +168,7 @@ export function ImpactSection() {
           <p className="text-white/90 text-lg mb-6">
             Estimated global CO2 reduction of fully enacted Threestones Company
             industrial manufacturing, distribution, production and invention
-            number 3 human video to AI verification system.
+            number 3 human video to the verification system.
           </p>
           <div className="inline-block bg-gradient-to-br from-[var(--forest-green)]/20 to-[var(--gold)]/20 border-2 border-[var(--gold)] rounded-lg px-8 py-4">
             <h3 className="text-[var(--gold)]">

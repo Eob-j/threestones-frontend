@@ -4,9 +4,9 @@ import { useRef } from "react";
 import { Heart, Eye, Wind } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import Health1 from "../assets/smoke-kitchen1.jpg";
-import Health2 from "../assets/smoke-kitchen2.jpg";
-import Health3 from "../assets/smoke-kitchen3.jpg";
+import Health1 from "/assets/smoke-kitchen1.jpg";
+import Health2 from "/assets/smoke-kitchen2.jpg";
+import Health3 from "/assets/smoke-kitchen3.jpg";
 
 export function HealthSection() {
   const ref = useRef(null);

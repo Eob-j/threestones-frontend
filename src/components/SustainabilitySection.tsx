@@ -11,22 +11,22 @@ export function SustainabilitySection() {
   const globalImpacts = [
     {
       icon: Globe,
-      number: "15,000+",
+      number: "5,000+",
       label: "Carbon Credits Generated",
     },
     {
       icon: Users,
-      number: "5,000+",
+      number: "30,000+",
       label: "Families Empowered",
     },
     {
       icon: Award,
-      number: "500",
+      number: "5,000+",
       label: "Tons CO₂ Offset",
     },
     {
       icon: TrendingUp,
-      number: "30%",
+      number: "50%",
       label: "Emissions Reduction",
     },
   ];

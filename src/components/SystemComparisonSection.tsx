@@ -59,7 +59,7 @@ export function SystemComparisonSection() {
       icon: Video,
       header: "Threestones Company",
       description:
-        "Threestones Company AI integrates AI verification video system with over 90% accuracy.",
+        "Threestones Company integrates verification video system with over 90% accuracy.",
     },
     {
       icon: ShoppingCart,

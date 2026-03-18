@@ -3,7 +3,7 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 // import WhoWeAre from "../assets/Who-We-Are.jpg";
-import HeroImage from "../assets/lady-turning-pot-2.jpeg";
+import HeroImage from "/assets/lady-turning-pot-2.jpeg";
 
 export function IntroSection() {
   const ref = useRef(null);

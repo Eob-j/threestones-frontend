@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import HeroBanner from "../assets/Hero-Banner.jpg";
+import HeroBanner from "/assets/Hero-Banner.jpg";
 
 export function HeroSection() {
   const scrollToSection = (id: string) => {

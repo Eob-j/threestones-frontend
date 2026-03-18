@@ -3,12 +3,12 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import fireDevOne from "../assets/fire-dev-one.jpg";
-import fireDevTwo from "../assets/fire-dev-two.jpg";
-import fireDevThree from "../assets/fire-dev-three.jpg";
-import fireDevFour from "../assets/fire-dev-four.jpg";
+import fireDevOne from "/assets/fire-dev-one.jpg";
+import fireDevTwo from "/assets/fire-dev-two.jpg";
+import fireDevThree from "/assets/fire-dev-three.jpg";
+import fireDevFour from "/assets/fire-dev-four.jpg";
 
-import womanFire from "../assets/woman-fire.jpg";
+import womanFire from "/assets/woman-fire.jpg";
 
 export function ResearchImpactSection() {
   const ref = useRef(null);

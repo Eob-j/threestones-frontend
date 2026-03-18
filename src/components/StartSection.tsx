@@ -1,13 +1,13 @@
 import { motion } from "motion/react";
 import { Shield, Flame, Lightbulb } from "lucide-react";
 
-import Beginning from "../assets/beginning1.jpg";
-import Invention1 from "../assets/invention1.jpg";
-import Production from "../assets/production.jpg";
-import Distribution from "../assets/stock-1.jpg";
-import Invention2 from "../assets/invention2.jpg";
-import Invention3 from "../assets/banner.jpg";
-import Stock from "../assets/stock.jpg";
+import Beginning from "/assets/beginning1.jpg";
+import Invention1 from "/assets/invention1.jpg";
+import Production from "/assets/production.jpg";
+import Distribution from "/assets/stock-1.jpg";
+import Invention2 from "/assets/invention2.jpg";
+import Invention3 from "/assets/banner.jpg";
+import Stock from "/assets/stock.jpg";
 
 export function StartSection() {
   const milestones = [
@@ -97,7 +97,7 @@ export function StartSection() {
         >
           <h2 className="text-[var(--gold)] mb-6">Our Beginning</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            In March 2025, We invent a new three stones fire which reduce fuel consumption by 30%.
+            In March 2025, We invent a new threestones fire which reduce fuel consumption by 30%.
           </p>
         </motion.div>
 
