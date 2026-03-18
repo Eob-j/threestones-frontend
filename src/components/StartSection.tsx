@@ -15,7 +15,7 @@ export function StartSection() {
       year: "March 2025",
       title: "The Beginning",
       description:
-        "The Threestone Fire was improved to increase safety and durability whilst improving ergonomics",
+        "The Threestone was improved to increase safety and durability whilst improving ergonomics",
       image: Beginning,
     },
     {
@@ -49,14 +49,14 @@ export function StartSection() {
       year: "December 2025",
       title: "Invention 3",
       description:
-        "AI verification system collects 250 mid-term field test results",
+        "Verification system collects 250 mid-term field test results",
       image: Invention3,
     },
     {
       year: "December 2025",
       title: "Stock",
       description:
-        "4,000 Threestone Fires distributed for credit production and sale",
+        "5,000+ Threestone distributed for credit production and sale",
       image: Stock,
     },
   ];
@@ -97,8 +97,7 @@ export function StartSection() {
         >
           <h2 className="text-[var(--gold)] mb-6">Our Beginning</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            In March 2025, we embarked on a journey to rediscover and reinvent
-            the traditional Threestones Fire.
+            In March 2025, We invent a new three stones fire which reduce fuel consumption by 30%.
           </p>
         </motion.div>
 
