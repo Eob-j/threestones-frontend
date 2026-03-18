@@ -95,7 +95,7 @@ export function StartSection() {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-[var(--gold)] mb-6">Our Beginning</h2>
+          <h2 className="text-[var(--gold)] mb-6">How We Started</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
             In March 2025, We invent a new threestones fire which reduce fuel consumption by 30%.
           </p>
