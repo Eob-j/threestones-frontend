@@ -30,11 +30,11 @@ export function IntroSection() {
               </p>
               <p className="text-lg leading-relaxed text-white/90">
                 The Threestones People (2.5 billion) - manufacturers,
-                distributors, Threestone carbon credit producers and owners of
+                distributors, Threestones Carbon reduction producers and owners of
                 the Threestone Company.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                The Threestones Fire Company has distributed thousands of Three
+                The Threestones Company has distributed thousands of Three
                 Stone Fires and continues to advance the technology through
                 structured community feedback, field testing, and ongoing
                 research.
