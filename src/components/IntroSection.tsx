@@ -2,7 +2,8 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import WhoWeAre from "../assets/Who-We-Are.jpg";
+// import WhoWeAre from "../assets/Who-We-Are.jpg";
+import HeroImage from "../assets/lady-turning-pot-2.jpeg";
 
 export function IntroSection() {
   const ref = useRef(null);
@@ -21,7 +22,7 @@ export function IntroSection() {
 
             <div className="flex flex-col space-y-6">
               <p className="text-lg mb-6 leading-relaxed text-white/90">
-                The Threestones Company is a not for profit private enterprise.
+                The Threestones Company is a private enterprise.
               </p>
               <p className="text-lg mb-6 leading-relaxed text-white/90">
                 Made up of The Threestones Company, Directors and
@@ -33,7 +34,7 @@ export function IntroSection() {
                 the Threestone Company.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                The Threestones Fire Company has distributed hundreds of Three
+                The Threestones Fire Company has distributed thousands of Three
                 Stone Fires and continues to advance the technology through
                 structured community feedback, field testing, and ongoing
                 research.
@@ -58,7 +59,7 @@ export function IntroSection() {
           >
             <div className="max-w-[500px] mx-auto">
               <ImageWithFallback
-                src={WhoWeAre}
+                src={HeroImage}
                 alt="Threestones People community"
                 className="w-full h-auto object-cover"
               />
