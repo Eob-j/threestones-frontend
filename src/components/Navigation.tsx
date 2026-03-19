@@ -101,7 +101,7 @@ export function Navigation() {
                 onClick={() => scrollToSection("cta")}
                 className="w-full bg-[var(--clay-red)] hover:bg-[var(--clay-red)]/90"
               >
-                Buy Threestone Credit
+                Buy Threestone Reduction
               </Button>
             </div>
           </div>

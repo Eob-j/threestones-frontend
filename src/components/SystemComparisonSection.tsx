@@ -25,12 +25,12 @@ export function SystemComparisonSection() {
     {
       icon: Users,
       header: "Threestones People",
-      description: "Tool operator produces product (carbon credit).",
+      description: "Tool operator produces product (carbon reduction).",
     },
     {
       icon: CheckCircle,
       header: "UN Net Zero",
-      description: "unverified product (carbon credit accuracy)",
+      description: "unverified product (carbon reduction accuracy)",
     },
     {
       icon: ShoppingCart,
@@ -53,7 +53,7 @@ export function SystemComparisonSection() {
     {
       icon: Users,
       header: "Threestones People",
-      description: "Tool operator produces product (carbon credit).",
+      description: "Tool operator produces product (carbon reduction).",
     },
     {
       icon: Video,

@@ -19,7 +19,7 @@ export function ResearchImpactSection() {
       image: fireDevOne,
       title: "Laboratory Analysis",
       description:
-        "Testing emission reductions and efficiency improvements in controlled environments to validate carbon credit calculations.",
+        "Testing emission reductions and efficiency improvements in controlled environments to validate carbon reduction calculations.",
     },
     {
       image: fireDevTwo,

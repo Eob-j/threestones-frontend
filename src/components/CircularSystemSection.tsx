@@ -11,20 +11,20 @@ export function CircularSystemSection() {
     {
       color: "#9B59B6", // Purple
       label:
-        "Repeat customer investment in Threestones Fire and Threestone's credit",
+        "Repeat customer investment in Threestones Fire and Threestone's reduction",
       position: { x: 59, y: 15 }, // Top
       labelPosition: { x: 50, y: -5 },
     },
     {
       color: "#C96A45", // Clay Red (matching site theme)
-      label: "Threestones Fire operator produces Threestones credit.",
+      label: "Threestones Fire operator produces Threestones reduction.",
       position: { x: 85, y: 59 }, // Right
       labelPosition: { x: 95, y: 35 },
     },
     {
       color: "#E2A037", // Gold (matching site theme)
       label:
-        "Immediate human to human video verification of Threestones credits",
+        "Immediate human to human video verification of Threestones reductions",
       position: { x: 41, y: 84.5 }, // Bottom
       labelPosition: { x: 50, y: 95 },
     },
@@ -46,7 +46,7 @@ export function CircularSystemSection() {
     },
     {
       color: "#C96A45", // Clay Red
-      label: "Threestone fire operator produces carbon credits",
+      label: "Threestone fire operator produces carbon reductions",
       position: { x: 37.5, y: 20 },
     },
     {
@@ -57,7 +57,7 @@ export function CircularSystemSection() {
     {
       color: "#2E5339", // Forest Green
       label:
-        "UN net zero approved carbon credits sold to company, profit and investment extracted",
+        "UN net zero approved carbon reductions sold to company, profit and investment extracted",
       position: { x: 87.5, y: 20 },
     },
   ];

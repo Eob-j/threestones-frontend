@@ -56,7 +56,7 @@ export function StartSection() {
       year: "December 2025",
       title: "Stock",
       description:
-        "5,000+ Threestone distributed for credit production and sale",
+        "5,000+ Threestone distributed for reduction production and sale",
       image: Stock,
     },
   ];
@@ -97,7 +97,8 @@ export function StartSection() {
         >
           <h2 className="text-[var(--gold)] mb-6">How We Started</h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            In March 2025, We invent a new threestones fire which reduce fuel consumption by 30%.
+            In March 2025, We invent a new threestones fire which reduce fuel
+            consumption by 30%.
           </p>
         </motion.div>
 
@@ -260,7 +261,7 @@ export function StartSection() {
 //       year: "June 2025",
 //       title: "Invention 2 additional to invention 1",
 //       description:
-//         "Additional Threestones triangles. Prototype test results equate to 50% reduction in fuel consumption, and C02 emissions. Leading up to a 90% reduction in harmful gases abosrbed by Threestone carbon credit manufacturers",
+//         "Additional Threestones triangles. Prototype test results equate to 50% reduction in fuel consumption, and C02 emissions. Leading up to a 90% reduction in harmful gases abosrbed by Threestone carbon reduction manufacturers",
 //       image: Invention2
 //     },
 //     {
@@ -274,7 +275,7 @@ export function StartSection() {
 //       year: "December 2025",
 //       title: "Stock",
 //       description:
-//         "4,000 invention 1 Threestone Fires distributed for Three Stone Credit production and sale",
+//         "4,000 invention 1 Threestone Fires distributed for Three Stone Reduction production and sale",
 //       image: Stock
 //     },
 //   ];

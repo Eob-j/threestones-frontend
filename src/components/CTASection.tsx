@@ -46,19 +46,24 @@ export function CTASection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-white mb-6">
-              Purchase a Threestones Carbon reduction Certificate equals 1 tonne Co2e for £50
+              Purchase a Threestones Carbon reduction Certificate equals 1 tonne
+              Co2e for £50
             </h2>
 
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
-              The purchase of a threestones carbon reduction will pay for supplies, replacements, maintenance and administration of the double threestones fire for 6 months 
+              The purchase of a threestones carbon reduction will pay for
+              supplies, replacements, maintenance and administration of the
+              double threestones fire for 6 months
             </p>
 
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
-        Your purchases help families cook more safely, reduce fuel use, and lower carbon emissions. Each ThreeStones Fire creates immediate and lasting environmental and social impact..
+              Your purchases help families cook more safely, reduce fuel use,
+              and lower carbon emissions. Each ThreeStones Fire creates
+              immediate and lasting environmental and social impact..
             </p>
 
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
-              <strong>What happens when you donate:</strong>
+              <strong>What happens when you purchase:</strong>
               <br />
               • A Threestone Fire is purchased and delivered to a family
               <br />
@@ -80,13 +85,16 @@ export function CTASection() {
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
               <strong>Secure payment:</strong>
               <br />
-              Your pay securely using credit or debit card via Stripe. All payments are encrypted and processed safely.
+              Your pay securely using reduction or debit card via Stripe. All
+              payments are encrypted and processed safely.
             </p>
 
             <p className="mb-6 text-white/90 text-xl leading-relaxed">
               <strong>Transparency & impact:</strong>
               <br />
-              Every payment is directly linked to the purchase and use of a ThreeStones Fire. You’ll receive regular updates so you can see the real-world impact of your support.
+              Every payment is directly linked to the purchase and use of a
+              ThreeStones Fire. You’ll receive regular updates so you can see
+              the real-world impact of your support.
             </p>
           </motion.div>
           <motion.div

@@ -12,7 +12,7 @@ export function SustainabilitySection() {
     {
       icon: Globe,
       number: "5,000+",
-      label: "Carbon Credits Generated",
+      label: "Carbon Reductions Generated",
     },
     {
       icon: Users,
@@ -63,11 +63,11 @@ export function SustainabilitySection() {
             manufacture, distribution, recording and maintenance of that
             Threestone Fire. After one year the same Threestones Fire is
             replaced or maintained using finance from the sale of the Three
-            Stone Credits it produces to people and companies to hold permanent
-            verified commercial carbon reductions. The customer by making the
-            initial one off capital investment has started a single financially
-            sustaining circular system which reduces global C02 emissions every
-            year forever.
+            Stone Reductions it produces to people and companies to hold
+            permanent verified commercial carbon reductions. The customer by
+            making the initial one off capital investment has started a single
+            financially sustaining circular system which reduces global C02
+            emissions every year forever.
           </p>
         </motion.div>
 
