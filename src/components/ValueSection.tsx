@@ -28,9 +28,9 @@ export function ValueSection() {
     {
       icon: Scale,
       title: "Sliding Scale Design",
-      description: "Adapts from 1 to 16 people",
+      description: "Adapts from 1 to 20 people",
       details:
-        "The size of the new Threestone Fires can expand and contract to produce the heat required to cook for between 1 and 16 people",
+        "The size of the new Threestone Fires can expand and contract to produce the heat required to cook for between 1 and 20 people",
       color: "var(--forest-green)",
     },
     {
@@ -38,7 +38,7 @@ export function ValueSection() {
       title: "Heat Direction and Storage",
       description: "Advanced thermal retention system",
       details:
-        "Heat from the fire is radiated into the stones as they force the heat through a hole in the top of the stones insulate. The heat is then conducted to the hot plate surfaces for further cooking activities, such as grilling. The stones radiate heat for hours after the fire has gone out further increasing efficiency",
+        "Heat from the fire is radiated into the hot stones surrounding it forcing the fire to burn hotter. The heat is then conducted to the hot plate surfaces for further cooking activities, such as grilling. The stones radiate heat for hours after the fire has gone out further increasing efficiency",
       color: "var(--clay-red)",
     },
   ];
@@ -60,8 +60,8 @@ export function ValueSection() {
             The Value of Innovation
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-white/90">
-            Every element of the new Threestones has been reimagined for
-            maximum efficiency, safety and environmental impact.
+            Every element of the new Threestones has been reimagined for maximum
+            efficiency, safety and environmental impact.
           </p>
         </motion.div>
 
