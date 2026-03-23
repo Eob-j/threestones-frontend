@@ -3,10 +3,10 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import fireDevOne from "/assets/fire-dev-one.jpg";
-import fireDevTwo from "/assets/fire-dev-two.jpg";
+import firestoneOne from "/assets/firestone-1.jpeg";
+import firestoneTwo from "/assets/firestone-2.jpeg";
+import firestoneThree from "/assets/firestone-3.jpeg";
 import fireDevThree from "/assets/fire-dev-three.jpg";
-import fireDevFour from "/assets/fire-dev-four.jpg";
 
 import womanFire from "/assets/woman-fire.jpg";
 
@@ -16,13 +16,13 @@ export function ResearchImpactSection() {
 
   const researchItems = [
     {
-      image: fireDevOne,
+      image: firestoneOne,
       title: "Laboratory Analysis",
       description:
         "Testing emission reductions and efficiency improvements in controlled environments to validate carbon reduction calculations.",
     },
     {
-      image: fireDevTwo,
+      image: firestoneTwo,
       title: "Engineering Innovation",
       description:
         "Developing and refining the Threestones Fire design to maximize efficiency and minimize environmental impact.",
@@ -34,7 +34,7 @@ export function ResearchImpactSection() {
         "Analyzing carbon emission data and tracking environmental impact across communities using the Threestones Fire.",
     },
     {
-      image: fireDevFour,
+      image: firestoneThree,
       title: "Field Studies",
       description:
         "Conducting on-site research in Gambian communities to measure real-world performance and gather user feedback.",
