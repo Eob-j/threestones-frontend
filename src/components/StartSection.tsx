@@ -42,21 +42,21 @@ export function StartSection() {
       year: "June 2025",
       title: "Invention 2",
       description:
-        "Prototype results equate to 50% fuel reduction and significant emissions decrease",
+        "Double Threestones Fire producing 50% to 75% reduction in fuel consumption",
       image: Invention2,
     },
     {
       year: "December 2025",
       title: "Invention 3",
       description:
-        "Verification system collects 250 mid-term field test results",
+        "Human to human verification system collects 250 mid-term field test results",
       image: Invention3,
     },
     {
       year: "December 2025",
       title: "Stock",
       description:
-        "5,000+ Threestone distributed for reduction production and sale",
+        "5,000+ Threestone distributed for carbon reductions and sales",
       image: Stock,
     },
   ];
@@ -75,8 +75,7 @@ export function StartSection() {
     {
       icon: Lightbulb,
       title: "Design Innovation",
-      description:
-        "Efficient cooking scale from 1 to 16 people with airflow optimisation",
+      description: "Efficient cooking scale from 1 to 20 people",
     },
   ];
 
