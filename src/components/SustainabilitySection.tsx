@@ -58,16 +58,15 @@ export function SustainabilitySection() {
             Global Incorruptible Sustainable System
           </h2>
           <p className="text-white/90 text-lg max-w-4xl mx-auto leading-relaxed">
-            When a private customer invests in an invention 1 Threestone Fire
-            with a one year maintenence contract. They invest in the
-            manufacture, distribution, recording and maintenance of that
-            Threestone Fire. After one year the same Threestones Fire is
-            replaced or maintained using finance from the sale of the Three
-            Stone Reductions it produces to people and companies to hold
-            permanent verified commercial carbon reductions. The customer by
-            making the initial one off capital investment has started a single
-            financially sustaining circular system which reduces global C02
-            emissions every year forever.
+            When a customer invests in an invention 1 Threestone Fire with a one
+            year maintenence contract. They invest in the manufacture,
+            distribution, recording and maintenance of that Threestone Fire.
+            After one year the same Threestones Fire is replaced or maintained
+            using finance from the sale of the Threestone Reductions it produces
+            to people and companies to hold permanent verified carbon
+            reductions. The customer by making the initial one off capital
+            investment has started a single financially sustaining circular
+            system which reduces global C02 emissions every year forever.
           </p>
         </motion.div>
 
