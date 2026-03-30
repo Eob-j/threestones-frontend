@@ -40,29 +40,36 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <h1 className="text-white mb-6">
-            Clean Cooking for Healthier Lives and a Healthier Planet
+          <h1
+            className="mb-12  text-white"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+          >
+            Real Climate Action. Verified by Humans
+            {/* Clean Cooking for Healthier Lives and a Healthier Planet */}
           </h1>
         </motion.div>
 
-        <motion.p
-          className="text-white/90 text-xl md:text-2xl mb-12 max-w-3xl mx-auto"
+        <motion.h2
+          className="text-white/90 text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-medium"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          More than 2 billion people worldwide still rely on open fires and
-          inefficient metal manufactured stoves to prepare their meals.
-        </motion.p>
+          Clean Cooking for Healthier Lives and a Healthier Planet
+          {/* More than 2 billion people worldwide still rely on open fires and
+          inefficient metal manufactured stoves to prepare their meals. */}
+        </motion.h2>
 
         <motion.p
-          className="text-white/90 text-xl md:text-2xl mb-12 max-w-3xl mx-auto"
+          className="text-white/90 text-xl md:text-2xl mb-6 max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          At Threestones Company, we believe clean cooking should be practical,
-          affordable and culturally respectful.
+          Every Threestones Certificate records a real emission reduction
+          created by a real person — verified at the point of action
+          {/* At Threestones Company, we believe clean cooking should be practical,
+          affordable and culturally respectful. */}
         </motion.p>
 
         <motion.p
