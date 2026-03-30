@@ -3,6 +3,7 @@ import { useInView } from "motion/react";
 import { useRef, useState, useEffect } from "react";
 import { Trees, TrendingDown, Sprout } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import treeWithLogo from "/assets/tree+logo.jpeg";
 
 export function ImpactSection() {
   const ref = useRef(null);
@@ -153,7 +154,8 @@ export function ImpactSection() {
           >
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1682965742594-2295b987d852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjByZWdlbmVyYXRpb24lMjBBZnJpY2F8ZW58MXx8fHwxNzYxNDA5MjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src={treeWithLogo}
+                // src="https://images.unsplash.com/photo-1682965742594-2295b987d852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjByZWdlbmVyYXRpb24lMjBBZnJpY2F8ZW58MXx8fHwxNzYxNDA5MjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Forest regeneration in Africa"
                 className="w-full h-[400px] object-cover"
               />
