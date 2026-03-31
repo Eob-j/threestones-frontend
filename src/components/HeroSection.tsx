@@ -42,7 +42,7 @@ export function HeroSection() {
         >
           <h1
             className="mb-12  text-white"
-            style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+            style={{ fontSize: "clamp(1.8rem, 4vw, 2rem)" }}
           >
             Real Climate Action. Verified by Humans
             {/* Clean Cooking for Healthier Lives and a Healthier Planet */}
@@ -50,7 +50,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.h2
-          className="text-white/90 text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-medium"
+          className="text-white/90 text-xl  mb-8 max-w-3xl mx-auto font-medium"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
@@ -67,7 +67,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           Every Threestones Certificate records a real emission reduction
-          created by a real person — verified at the point of action
+          created by a real person verified at the point of action
           {/* At Threestones Company, we believe clean cooking should be practical,
           affordable and culturally respectful. */}
         </motion.p>
