@@ -9,23 +9,23 @@ export function VideoVerification() {
   return (
     <section
       id="video-verification"
-      className="py-24 bg-gradient-to-b from-[var(--charcoal)] to-[#1a1a1a]"
+      className="py-24 bg-gradient-to-t from-[var(--charcoal)] to-[#1a1a1a]"
       ref={ref}
     >
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8 text-black">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-6">
+            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-3">
               Verified Customer Story
-            </h2>
-
-            <p className="text-white mb-6 font-bold leading-tight">
-              Real Video Testimonial from a ThreeStone Customer
             </p>
+
+            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
+              Real Video Testimonial from a ThreeStone Customer
+            </h2>
 
             <div className="flex flex-col space-y-6">
               <p className="text-lg leading-relaxed text-white/90">
@@ -37,8 +37,8 @@ export function VideoVerification() {
 
               <p className="text-lg leading-relaxed text-white/90">
                 This testimonial highlights the real-life impact of the
-                ThreeStone solution — from better fuel efficiency to reduced
-                smoke and improved cooking comfort for families.
+                ThreeStone solution from better fuel efficiency to reduced smoke
+                and improved cooking comfort for families.
               </p>
 
               <p className="text-lg leading-relaxed text-white/90">
@@ -58,7 +58,7 @@ export function VideoVerification() {
               <iframe
                 className="block w-full h-full"
                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                title="ThreeStone Customer Testimonial"
+                title="Threestones Customer Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
