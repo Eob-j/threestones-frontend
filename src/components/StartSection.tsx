@@ -59,6 +59,13 @@ export function StartSection() {
         "5,000+ Threestone distributed for carbon reductions and sales",
       image: Stock,
     },
+    {
+      year: "March 2026",
+      title: "Threestones system fully activated",
+      description:
+        "5,000+ fires ignited. Data from cookstove and all other fire automatically record with Threestones systems",
+      image: Distribution,
+    },
   ];
 
   const innovations = [
@@ -70,7 +77,7 @@ export function StartSection() {
     {
       icon: Flame,
       title: "Reduced Emissions",
-      description: "Up to 50% less fuel consumption in prototypes",
+      description: "50 - 70% estimated fire reduction",
     },
     {
       icon: Lightbulb,
