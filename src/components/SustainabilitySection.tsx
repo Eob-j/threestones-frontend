@@ -16,7 +16,7 @@ export function SustainabilitySection() {
     },
     {
       icon: Users,
-      number: "30,000+",
+      number: "50,000+",
       label: "Families Empowered",
     },
     {
@@ -29,6 +29,11 @@ export function SustainabilitySection() {
       number: "50%",
       label: "Emissions Reduction",
     },
+    // {
+    //   icon: TrendingUp,
+    //   number: "50,000",
+    //   label: "",
+    // },
   ];
 
   return (
