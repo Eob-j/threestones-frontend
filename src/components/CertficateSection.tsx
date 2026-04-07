@@ -1,0 +1,86 @@
+import { motion } from "motion/react";
+import { useInView } from "motion/react";
+import { useRef, useState } from "react";
+
+export function CertificateSection() {
+  const certificateImage =
+    "https://freeprintables.us.com/wp-content/uploads/2025/05/free-custom-printable-achievement-certificate-templates-canva-4.jpg";
+  const termsLink = "https://drive.google.com/YOUR_TERMS_LINK";
+  const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.25 });
+
+  return (
+    <section className="py-24 bg-white" ref={ref}>
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8 }}
+          >
+            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-3">
+              Verified Certification
+            </p>
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+              Official ThreeStones Carbon Reduction Certificate of Validation
+            </h2>
+            <p className="text-lg text-gray-600 leading-8 mb-6">
+              This certificate verifies that the Threestones stove technology
+              has been reviewed, tested, and recognized for its performance in
+              fuel efficiency, cleaner combustion, and carbon reduction
+              outcomes.
+            </p>
+            <p className="text-lg text-gray-600 leading-8 mb-8">
+              Customers, partners, and institutions can use this certification
+              as a trust signal that the product aligns with our documented
+              standards and field-tested benchmarks.
+            </p>
+
+            <a
+              href={termsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-2xl px-6 py-4 text-white bg-[var(--clay-red)] hover:opacity-90 transition-all duration-300 shadow-lg"
+            >
+              View Terms & Conditions
+            </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <button
+              onClick={() => setIsOpen(true)}
+              className="block rounded-3xl overflow-hidden shadow-2xl hover:scale-[1.02] transition-transform duration-300"
+            >
+              <img
+                src={certificateImage}
+                alt="ThreeStone certificate"
+                className="w-full h-auto object-cover"
+              />
+            </button>
+          </motion.div>
+        </div>
+      </div>
+
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-6"
+          onClick={() => setIsOpen(false)}
+        >
+          <motion.img
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3 }}
+            src={certificateImage}
+            alt="Full certificate preview"
+            className="max-w-5xl w-full max-h-[90vh] object-contain rounded-2xl shadow-2xl"
+          />
+        </div>
+      )}
+    </section>
+  );
+}
