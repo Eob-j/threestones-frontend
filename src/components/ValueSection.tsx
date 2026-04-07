@@ -123,7 +123,7 @@ export function ValueSection() {
                 </h4>
                 <div className="space-y-2 text-sm text-white/80">
                   <p>✅ 50% less fuel</p>
-                  <p>✅ 90% smoke reduction</p>
+                  <p>✅ 50% smoke reduction</p>
                   <p>✅ Enhanced safety</p>
                   <p>✅ Optimal heat retention</p>
                 </div>
