@@ -11,7 +11,7 @@ export function CircularSystemSection() {
     {
       color: "#9B59B6", // Purple
       label:
-        "Repeat customer investment in Threestones Fire and Threestone's reduction",
+        "Customer investment in Threestones Fire and Threestone's reduction",
       position: { x: 59, y: 15 }, // Top
       labelPosition: { x: 50, y: -5 },
     },
@@ -41,23 +41,23 @@ export function CircularSystemSection() {
     {
       color: "#9B59B6", // Purple
       label:
-        "UN Net Zero approved company invests in cook stone distribution and maintenance",
+        "UN Net Zero approach company invests in cookstove distribution and maintenance",
       position: { x: 12.5, y: 20 },
     },
     {
       color: "#C96A45", // Clay Red
-      label: "Threestone fire operator produces carbon reductions",
+      label: "Threestone fire operator produces carbon credit",
       position: { x: 37.5, y: 20 },
     },
     {
       color: "#E2A037", // Gold
-      label: "UN net zero system approved verification",
+      label: "UN net zero system approach verification",
       position: { x: 62.5, y: 20 },
     },
     {
       color: "#2E5339", // Forest Green
       label:
-        "UN net zero approved carbon reductions sold to company, profit and investment extracted",
+        "UN net zero approach carbon credit sold to company, profit and investment extracted",
       position: { x: 87.5, y: 20 },
     },
   ];
