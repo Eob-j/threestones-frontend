@@ -46,8 +46,8 @@ export function CTASection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-white mb-6">
-              Purchase a Threestones Carbon reduction Certificate equals 1 tonne
-              Co2e for £50
+              Buy a Threestones Carbon reduction Certificate Estimates 1 tonne
+              Co2e Reduction for £50
             </h2>
 
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
@@ -59,13 +59,13 @@ export function CTASection() {
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
               Your purchases help families cook more safely, reduce fuel use,
               and lower carbon emissions. Each ThreeStones Fire creates
-              immediate and lasting environmental and social impact..
+              immediate and lasting environmental and social impact.
             </p>
 
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
               <strong>What happens when you purchase:</strong>
               <br />
-              • A Threestone Fire is purchased and delivered to a family
+              • The Threestone is delivered to a family
               <br />
               • Fuel consumption is reduced, lowering carbon emissions
               <br />• Cooking becomes safer, cleaner, and more efficient
