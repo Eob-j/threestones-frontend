@@ -11,6 +11,7 @@ import { CircularSystemSection } from "./components/CircularSystemSection";
 import { ResearchImpactSection } from "./components/ResearchImpactSection";
 import { CTASection } from "./components/CTASection";
 import { Footer } from "./components/Footer";
+import { VideoVerification } from "./components/VideoVerification";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Navigation />
       <HeroSection />
       <IntroSection />
+      <VideoVerification />
       <StartSection />
       <ValueSection />
       <HealthSection />
