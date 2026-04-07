@@ -25,13 +25,13 @@ export function ResearchImpactSection() {
       image: firestoneTwo,
       title: "Engineering Innovation",
       description:
-        "Developing and refining the Threestones Fire design to maximize efficiency and minimize environmental impact.",
+        "Developing and refining the Threestones fire design to maximize efficiency and minimize environmental impact.",
     },
     {
       image: fireDevThree,
       title: "Data & Climate Research",
       description:
-        "Analyzing carbon emission data and tracking environmental impact across communities using the Threestones Fire.",
+        "Analyzing carbon emission data and tracking environmental impact across communities using the Threestones fire.",
     },
     {
       image: firestoneThree,
@@ -45,7 +45,7 @@ export function ResearchImpactSection() {
     image: womanFire,
     title: "Empowering Communities",
     description:
-      "The Threestone Fire Comapany continues to distribute the Threestone Fires throughout the community.",
+      "The Threestones Comapany continues to distribute the Threestone fire throughout the community.",
   };
 
   return (
@@ -110,12 +110,12 @@ export function ResearchImpactSection() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              The Threestones Fire Company has distributed hundreds of Three
-              Stone Fires and continues to advance the technology through
-              structured community feedback, field testing, and ongoing
-              research. Our development work focuses on improving fuel
-              efficiency, durability, usability, and carbon reduction outcomes
-              under real-world cooking conditions.
+              The Threestones Company has distributed thousands of Threestone
+              fires and continues to advance the technology through structured
+              community feedback, field testing, and ongoing research. Our
+              development work focuses on improving fuel efficiency, durability,
+              usability, and carbon reduction outcomes under real-world cooking
+              conditions.
             </motion.p>
           </motion.div>
 
