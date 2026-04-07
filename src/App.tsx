@@ -12,6 +12,7 @@ import { ResearchImpactSection } from "./components/ResearchImpactSection";
 import { CTASection } from "./components/CTASection";
 import { Footer } from "./components/Footer";
 import { VideoVerification } from "./components/VideoVerification";
+import { CertificateSection } from "./components/CertficateSection";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <HeroSection />
       <IntroSection />
       <VideoVerification />
+      <CertificateSection />
       <StartSection />
       <ValueSection />
       <HealthSection />
