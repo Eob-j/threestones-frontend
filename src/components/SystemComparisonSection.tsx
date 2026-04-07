@@ -25,12 +25,12 @@ export function SystemComparisonSection() {
     {
       icon: Users,
       header: "Threestones People",
-      description: "Tool operator produces product (carbon reduction).",
+      description: "Tool operator produces product (carbon credit).",
     },
     {
       icon: CheckCircle,
       header: "UN Net Zero",
-      description: "unverified product (carbon reduction accuracy)",
+      description: "unverified product (carbon credit accuracy)",
     },
     {
       icon: ShoppingCart,
@@ -48,7 +48,7 @@ export function SystemComparisonSection() {
     {
       icon: Flame,
       header: "Threestones Company",
-      description: "Money reinvested into tool (Threestone fire).",
+      description: "Money invested into tool (Threestone fire).",
     },
     {
       icon: Users,
@@ -58,8 +58,7 @@ export function SystemComparisonSection() {
     {
       icon: Video,
       header: "Threestones Company",
-      description:
-        "Threestones Company integrates verification video system with over 90% accuracy.",
+      description: "Threestones Company integrates verification video system.",
     },
     {
       icon: ShoppingCart,
@@ -70,7 +69,7 @@ export function SystemComparisonSection() {
       icon: RefreshCw,
       header: "Threestones Company",
       description:
-        "Money reinvested into tool (Threestones Fire) production and development.",
+        "Money invested into tool (Threestones Fire) production and development.",
     },
   ];
 
