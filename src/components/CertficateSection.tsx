@@ -5,7 +5,8 @@ import { useRef, useState } from "react";
 export function CertificateSection() {
   const certificateImage =
     "https://freeprintables.us.com/wp-content/uploads/2025/05/free-custom-printable-achievement-certificate-templates-canva-4.jpg";
-  const termsLink = "https://drive.google.com/YOUR_TERMS_LINK";
+  const termsLink =
+    "https://drive.google.com/file/d/16erB2CA0t2Q1yLKIcN4h8EC_UzMr8ylA/view?usp=drive_link";
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.25 });
