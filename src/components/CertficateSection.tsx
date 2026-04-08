@@ -45,10 +45,9 @@ export function CertificateSection() {
               Official ThreeStones Carbon Reduction Certificate of Validation
             </h2>
             <p className="text-lg text-white/90 leading-8 mb-6">
-              This certificate verifies that the Threestones stove technology
-              has been reviewed, tested, and recognized for its performance in
-              fuel efficiency, cleaner combustion, and carbon reduction
-              outcomes.
+              This certificate verifies that the Threestones technology has been
+              reviewed, tested, and recognized for its performance in fuel
+              efficiency, cleaner combustion, and carbon reduction outcomes.
             </p>
             <p className="text-lg text-white/90 leading-8 mb-8">
               Customers, partners, and institutions can use this certification

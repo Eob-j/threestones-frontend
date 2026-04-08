@@ -24,15 +24,15 @@ export function VideoVerification() {
             </p>
 
             <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-              Real Video Testimonial from a ThreeStone Customer
+              Real Video Testimonial from a Threeastones Customer
             </h2>
 
             <div className="flex flex-col space-y-6">
               <p className="text-lg leading-relaxed text-white/90">
                 Hear directly from one of our happy customers who purchased a
-                ThreeStone stove. In this short video, they share their
-                experience, how the stove improved their daily cooking, and why
-                they trust ThreeStone for cleaner and more efficient cooking.
+                Threestone. In this short video, they share their experience,
+                how the improved their daily cooking, and why they trust
+                Threestone Company for cleaner and more efficient cooking.
               </p>
 
               <p className="text-lg leading-relaxed text-white/90">
