@@ -18,7 +18,12 @@ export function IntroSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-[var(--clay-red)] mb-6">Who We Are</h2>
+            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-3">
+              Introduction
+            </p>
+            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
+              Who We Are
+            </h2>
 
             <div className="flex flex-col space-y-6">
               <p className="text-lg mb-6 leading-relaxed text-white/90">
@@ -30,14 +35,13 @@ export function IntroSection() {
               </p>
               <p className="text-lg leading-relaxed text-white/90">
                 The Threestones People (2.5 billion) - manufacturers,
-                distributors, Threestones Carbon reduction producers and owners of
-                the Threestone Company.
+                distributors, Threestones Carbon reduction producers and owners
+                of the Threestone Company.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                The Threestones Company has distributed thousands of Three
-                Stone Fires and continues to advance the technology through
-                structured community feedback, field testing, and ongoing
-                research.
+                The Threestones Company has distributed thousands of Three Stone
+                Fires and continues to advance the technology through structured
+                community feedback, field testing, and ongoing research.
               </p>
 
               <p className="text-lg leading-relaxed text-white/90">
