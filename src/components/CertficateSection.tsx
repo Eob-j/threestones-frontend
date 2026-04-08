@@ -1,10 +1,9 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
+import certificateImage from "/assets/sample HVRC.png";
 
 export function CertificateSection() {
-  const certificateImage =
-    "https://freeprintables.us.com/wp-content/uploads/2025/05/free-custom-printable-achievement-certificate-templates-canva-4.jpg";
   const termsLink =
     "https://drive.google.com/file/d/16erB2CA0t2Q1yLKIcN4h8EC_UzMr8ylA/view?usp=drive_link";
   const [isOpen, setIsOpen] = useState(false);
