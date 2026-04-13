@@ -30,7 +30,8 @@ export function CircularSystemSection() {
     },
     {
       color: "#2E5339", // Forest Green (matching site theme)
-      label: "Customer receives video",
+      label:
+        "Customer receives video evident ~ THVCR Certificate estimate 1 tonne CO2e",
       position: { x: 15, y: 41 }, // Left
       labelPosition: { x: 5, y: 35 },
     },
