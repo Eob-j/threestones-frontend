@@ -57,7 +57,7 @@ export function VideoVerification() {
             <div className="w-full h-[400px] md:h-[420px] overflow-hidden rounded-3xl shadow-2xl max-w-[650px] mx-auto">
               <iframe
                 className="block w-full h-full"
-                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                src="https://youtube.com/shorts/21Il6BmpiR0"
                 title="Threestones Customer Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
