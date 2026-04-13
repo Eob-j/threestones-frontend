@@ -38,7 +38,7 @@ export function ValueSection() {
       title: "Heat Direction and Storage",
       description: "Advanced thermal retention system",
       details:
-        "Heat from the fire is radiated into the hot stones surrounding it forcing the fire to burn hotter. The heat is then conducted to the hot plate surfaces for further cooking activities, such as grilling. The stones radiate heat for hours after the fire has gone out further increasing efficiency",
+        "The hot air and flames are directed to the surface of the cooking pot reducing wasted heat energy",
       color: "var(--clay-red)",
     },
   ];
