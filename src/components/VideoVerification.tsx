@@ -56,7 +56,7 @@ export function VideoVerification() {
           >
             <div
               className="overflow-hidden rounded-3xl shadow-2xl mx-auto"
-              style={{ width: "fit-content", height: 400 }}
+              style={{ width: 600, height: 400 }}
             >
               <iframe
                 title="THVCR Certificate"
