@@ -74,9 +74,9 @@ export function CTASection() {
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
               <strong>What you’ll receive:</strong>
               <br />
-              • A ThreeStones Fire Carbon Reduction Certificate
+              • Threestones Human Verified Carbon Reduction Certificate
               <br />
-              • Confirmation of the individual family receiving the fire
+              • Confirmation of the individual operator receiving the fire
               <br />
               • Photo and video updates showing the fire in use
               <br />• Ongoing updates on fuel savings and carbon impact
