@@ -22,7 +22,7 @@ export function ValueSection() {
       title: "Fire Combustion Control",
       description: "Optimized fuel restraint and heat supply",
       details:
-        "The alternative way in which a wood fire burns is controlled by changing the position stones, to achieve maximum heat from the wood fuel. ",
+        "The invention gives the operator increased control over the input of the three components required to make fire(it is heat, air and fuel",
       color: "var(--gold)",
     },
     {
