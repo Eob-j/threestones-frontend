@@ -177,7 +177,7 @@ export function ImpactSection() {
           </p>
           <div className="inline-block bg-gradient-to-br from-[var(--forest-green)]/20 to-[var(--gold)]/20 border-2 border-[var(--gold)] rounded-lg px-8 py-4">
             <h3 className="text-[var(--gold)]">
-              4 billion tonnes of CO2 per annum
+              11% Global CO2e emission reduction per annum
             </h3>
           </div>
         </motion.div>
