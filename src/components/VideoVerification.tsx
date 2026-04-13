@@ -54,12 +54,15 @@ export function VideoVerification() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="w-full h-[400px] md:h-[420px] overflow-hidden rounded-3xl shadow-2xl max-w-[650px] mx-auto">
+            <div
+              className="overflow-hidden rounded-3xl shadow-2xl mx-auto"
+              style={{ width: "fit-content", height: 400 }}
+            >
               <iframe
-                className="block w-full h-full"
-                src="https://youtube.com/shorts/21Il6BmpiR0"
-                title="Threestones Customer Testimonial"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title="THVCR Certificate"
+                src="https://www.youtube.com/embed/21Il6BmpiR0"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
             </div>
