@@ -24,26 +24,26 @@ export function VideoVerification() {
             </p>
 
             <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-              Real Video Testimonial from a Threeastones Customer
+              Human Video Verification
             </h2>
 
             <div className="flex flex-col space-y-6">
               <p className="text-lg leading-relaxed text-white/90">
-                Hear directly from one of our happy customers who purchased a
-                Threestone. In this short video, they share their experience,
-                how the improved their daily cooking, and why they trust
-                Threestone Company for cleaner and more efficient cooking.
+                You will receive videos similar to these samples, they share
+                their experience, how the improved their daily cooking, and why
+                they trust Threestone Company for cleaner and more efficient
+                cooking.
               </p>
 
               <p className="text-lg leading-relaxed text-white/90">
-                This testimonial highlights the real-life impact of the
-                ThreeStone solution from better fuel efficiency to reduced smoke
+                This validation highlights the real-life impact of the
+                Threestone solution from better fuel efficiency to reduced smoke
                 and improved cooking comfort for families.
               </p>
 
               <p className="text-lg leading-relaxed text-white/90">
-                Every customer story helps validate our mission and strengthens
-                the trust communities place in our technology.
+                Your THVCR certificate strengthen trust in the Threestones
+                system that communities require from our technology
               </p>
             </div>
           </motion.div>
