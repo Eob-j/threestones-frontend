@@ -67,7 +67,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           Every Threestones Certificate records a real emission reduction
-          created by a real person verified at the point of action
+          created by a real person verified at the point of creation
           {/* At Threestones Company, we believe clean cooking should be practical,
           affordable and culturally respectful. */}
         </motion.p>
