@@ -48,9 +48,10 @@ export function IntroSection() {
                 Our development work focuses on improving fuel efficiency,
                 durability, usability, and carbon reduction outcomes under
                 real-world cooking conditions. To expand this research and
-                validate long-term impact, additional funding is required to
-                support further production trials, data collection, and wider
-                community deployment.
+                validate long-term impact, sales of our THREESTONES HUMAN
+                VERIFIED CARBON REDUCTIONS (THVCRs) are required to support
+                further production trials, data collection, and wider community
+                deployment.
               </p>
             </div>
           </motion.div>
