@@ -17,7 +17,7 @@ export function SustainabilitySection() {
     {
       icon: Users,
       number: "50,000+",
-      label: "Families Empowered",
+      label: "Feed from Threestones Fire",
     },
     {
       icon: Award,
