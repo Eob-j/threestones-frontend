@@ -43,7 +43,7 @@ export function VideoVerification() {
 
               <p className="text-lg leading-relaxed text-white/90">
                 Your THVCR certificate strengthen trust in the Threestones
-                system that communities require from our technology
+                system that people require from it's technology
               </p>
             </div>
           </motion.div>
