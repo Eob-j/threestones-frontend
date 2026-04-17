@@ -65,7 +65,7 @@ export function CTASection() {
             <p className="text-white/90 text-xl mb-12 leading-relaxed">
               <strong>What happens when you purchase:</strong>
               <br />
-              • The Threestone is delivered to a family
+              • The Threestones is delivered to a family
               <br />
               • Fuel consumption is reduced, lowering carbon emissions
               <br />• Cooking becomes safer, cleaner, and more efficient
@@ -191,7 +191,7 @@ export function CTASection() {
                 disabled:cursor-not-allowed
               "
             >
-              Ignite Threestone Fire
+              Ignite Threestones Fire
             </Button>
           </motion.div>
 

@@ -43,7 +43,7 @@ export function ImpactSection() {
             Each new invention no 2 (double fire) reduces emission by 2 tonnes
             CO2 per annum. This translate to 2 tonnes of firewoods not being
             burn. The wood remains living and growing in the forest nearby the
-            Threestone People.
+            Threestones People.
           </p>
         </motion.div>
 
@@ -64,7 +64,7 @@ export function ImpactSection() {
                 {/* Old Threestone Fire */}
                 <div>
                   <div className="flex justify-between mb-2 text-white/90">
-                    <span>Old Threestone Fire</span>
+                    <span>Old Threestones Fire</span>
                   </div>
                   <div className="h-10 bg-red-200 rounded-full overflow-hidden relative">
                     <motion.div
@@ -114,7 +114,7 @@ export function ImpactSection() {
                 {/* Invention Two Threestone Triangles */}
                 <div>
                   <div className="flex justify-between mb-2 text-white/90">
-                    <span>Invention Two Threestone Triangles</span>
+                    <span>Invention Two Double Threestones</span>
                   </div>
                   <div className="h-10 bg-emerald-200 rounded-full overflow-hidden relative flex">
                     <motion.div

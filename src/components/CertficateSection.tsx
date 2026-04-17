@@ -45,10 +45,9 @@ export function CertificateSection() {
               Threestones Human Verified Carbon reduction (THVCR) Certificate
             </h2>
             <p className="text-lg text-white/90 leading-8 mb-6">
-              This certificate verifies that the certificate verifies that the
-              Threestones fire has been installed and is operational. it is
-              agreed by the buyer and seller who estimate the carbon reduction
-              of 1 CO2e per annum.
+              This certificate verifies that the Threestones fire has been
+              installed and is operational. it is agreed by the buyer and seller
+              who estimate the carbon reduction of 1 CO2e per annum.
             </p>
             <p className="text-lg text-white/90 leading-8 mb-8">
               The buyer and seller can use this certificate as a trust signal

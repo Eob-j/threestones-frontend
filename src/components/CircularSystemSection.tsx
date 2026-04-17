@@ -42,7 +42,7 @@ export function CircularSystemSection() {
     {
       color: "#9B59B6", // Purple
       label:
-        "UN Net Zero approach company invests in cookstove distribution and maintenance",
+        "UN Net Zero company invests in cookstove distribution and maintenance",
       position: { x: 12.5, y: 20 },
     },
     {
@@ -52,13 +52,13 @@ export function CircularSystemSection() {
     },
     {
       color: "#E2A037", // Gold
-      label: "UN net zero system approach verification",
+      label: "UN net zero system verification",
       position: { x: 62.5, y: 20 },
     },
     {
       color: "#2E5339", // Forest Green
       label:
-        "UN net zero approach carbon credit sold to company, profit and investment extracted",
+        "UN net zero carbon credit sold to company, profit and investment extracted",
       position: { x: 87.5, y: 20 },
     },
   ];
@@ -285,7 +285,7 @@ export function CircularSystemSection() {
         >
           {/* Linear Diagram Header */}
           <div className="text-center mb-6">
-            <h3 className="text-white mb-2">UN Net Zero Approach</h3>
+            <h3 className="text-white mb-2">UN Net Zero</h3>
             <p className="text-[var(--gold)]">
               Closed Linear Extraction System
             </p>

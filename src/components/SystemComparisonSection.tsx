@@ -48,7 +48,7 @@ export function SystemComparisonSection() {
     {
       icon: Flame,
       header: "Threestones Company",
-      description: "Money invested into tool (Threestone fire).",
+      description: "Money invested into tool (Threestones fire).",
     },
     {
       icon: Users,

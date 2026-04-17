@@ -20,7 +20,7 @@ export function VideoVerification() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-3">
-              Verified Customer Story
+              Verified Operator Story
             </p>
 
             <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
