@@ -77,7 +77,7 @@ export function StartSection() {
     {
       icon: Flame,
       title: "Reduced Emissions",
-      description: "50 - 70% estimated fire reduction",
+      description: "50 - 75% estimated carbon reduction",
     },
     {
       icon: Lightbulb,
@@ -139,7 +139,7 @@ export function StartSection() {
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-6 flex-1">
+                        <div className="p-6 flex-1 max-md:p-8">
                           <span className="text-[var(--gold)]">
                             {milestone.year}
                           </span>
