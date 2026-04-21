@@ -93,7 +93,7 @@ export function CTASection() {
               <strong>Transparency & impact:</strong>
               <br />
               Every payment is directly linked to the purchase and use of a
-              ThreeStones Fire. You’ll receive regular updates so you can see
+              Threestones Fire. You’ll receive regular updates so you can see
               the real-world impact of your support.
             </p>
           </motion.div>
