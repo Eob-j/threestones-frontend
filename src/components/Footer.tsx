@@ -5,7 +5,7 @@ export function Footer() {
         {/* Brand Section */}
         <div className="text-center mb-12">
           <h3 className="text-[var(--gold)] mb-4">
-            Threestone Company (Gambia)
+            Threestones Company (Gambia)
           </h3>
           <p className="text-white/70">
             Truth and Value Rooted at the Point of Creation.
