@@ -9,39 +9,40 @@ export function VideoVerification() {
   return (
     <section
       id="video-verification"
-      className="py-24 bg-gradient-to-t from-[var(--charcoal)] to-[#1a1a1a]"
+      className="bg-gradient-to-t from-[var(--charcoal)] to-[#1a1a1a] py-16 sm:py-20 lg:py-24"
       ref={ref}
     >
-      <div className="container mx-auto px-4 lg:px-8 text-black">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 text-black sm:px-6 lg:px-8">
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-12">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
+            className="max-w-2xl"
           >
-            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[var(--clay-red)] mb-3">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--clay-red)] sm:text-sm">
               Verified Operator Story
             </p>
 
-            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
+            <h2 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl lg:mb-6 lg:text-5xl">
               Human Video Verification
             </h2>
 
-            <div className="flex flex-col space-y-6">
-              <p className="text-lg leading-relaxed text-white/90">
+            <div className="flex flex-col gap-5 sm:gap-6">
+              <p className="text-base leading-relaxed text-white/90 sm:text-lg">
                 You will receive videos similar to these samples, they share
                 their experience, how the improved their daily cooking, and why
                 they trust Threestone Company for cleaner and more efficient
                 cooking.
               </p>
 
-              <p className="text-lg leading-relaxed text-white/90">
+              <p className="text-base leading-relaxed text-white/90 sm:text-lg">
                 This validation highlights the real-life impact of the
                 Threestone solution from better fuel efficiency to reduced smoke
                 and improved cooking comfort for families.
               </p>
 
-              <p className="text-lg leading-relaxed text-white/90">
+              <p className="text-base leading-relaxed text-white/90 sm:text-lg">
                 Your THVCR certificate strengthen trust in the Threestones
                 system that people require from it's technology
               </p>
@@ -49,14 +50,14 @@ export function VideoVerification() {
           </motion.div>
 
           <motion.div
-            className="relative"
+            className="relative w-full"
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div
-              className="overflow-hidden rounded-3xl shadow-2xl mx-auto"
-              style={{ width: 600, height: 400 }}
+              className="mx-auto w-full max-w-180 overflow-hidden rounded-2xl shadow-2xl sm:rounded-3xl"
+              style={{ height: 450 }}
             >
               <iframe
                 title="THVCR Certificate"
