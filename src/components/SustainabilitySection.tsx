@@ -22,7 +22,7 @@ export function SustainabilitySection() {
     {
       icon: Award,
       number: "5,000+",
-      label: "Tons CO₂ Offset",
+      label: "Tons CO₂ Reduction",
     },
     {
       icon: TrendingUp,
@@ -88,9 +88,9 @@ export function SustainabilitySection() {
 
           <p className="text-white/90 text-lg leading-relaxed mb-6">
             Threestones Company was established to deliver social and
-            environmental benefits to the three-stone cooking communities of The
+            environmental benefits to the threestones cooking communities of The
             Gambia. By applying simple yet sophisticated technology, we redesign
-            the traditional three-stone fire to make it:
+            the traditional threestones to make it:
           </p>
 
           <ul className="list-disc list-inside text-white/90 text-lg leading-relaxed mb-6 space-y-2">
