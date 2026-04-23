@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
-import certificateImage from "/assets/Latest_sample THVCR.png";
+import certificateImage from "/assets/Final_sample HVRC.jpg.jpeg";
 
 export function CertificateSection() {
   const termsLink =
