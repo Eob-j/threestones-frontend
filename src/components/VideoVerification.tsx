@@ -60,8 +60,8 @@ export function VideoVerification() {
               style={{ height: 450 }}
             >
               <iframe
-                title="THVCR Certificate"
-                src="https://www.youtube.com/embed/21Il6BmpiR0"
+                title="YouTube video player"
+                src="https://www.youtube.com/embed/Bn_6kFGIFtM?si=dbePUxz4So79q_y2"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen

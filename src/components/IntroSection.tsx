@@ -62,11 +62,11 @@ export function IntroSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="max-w-[500px] mx-auto">
+            <div className="mx-auto aspect-video w-full max-w-[500px] overflow-hidden rounded-3xl">
               <ImageWithFallback
                 src={HeroImage}
                 alt="Threestones People community"
-                className="w-full h-auto object-cover"
+                className="h-full w-full object-cover"
               />
             </div>
           </motion.div>

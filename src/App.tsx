@@ -13,6 +13,7 @@ import { CTASection } from "./components/CTASection";
 import { Footer } from "./components/Footer";
 import { VideoVerification } from "./components/VideoVerification";
 import { CertificateSection } from "./components/CertficateSection";
+import { BusinessAdventuresSection } from "./components/BusinessAdventuresSection";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <VideoVerification />
       <CertificateSection />
       <StartSection />
+      <BusinessAdventuresSection />
       <ValueSection />
       <HealthSection />
       <ImpactSection />

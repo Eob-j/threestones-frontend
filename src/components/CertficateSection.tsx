@@ -24,12 +24,12 @@ export function CertificateSection() {
           >
             <button
               onClick={() => setIsOpen(true)}
-              className="block rounded-3xl overflow-hidden shadow-2xl hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
+              className="block aspect-video w-full overflow-hidden rounded-3xl shadow-2xl transition-transform duration-300 hover:scale-[1.02] cursor-pointer"
             >
               <img
                 src={certificateImage}
                 alt="ThreeStone certificate"
-                className="w-full h-auto object-cover"
+                className="h-full w-full object-cover"
               />
             </button>
           </motion.div>
