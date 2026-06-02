@@ -74,14 +74,14 @@ export function ImpactSection() {
                       transition={{ duration: 1, delay: 0.3 }}
                     >
                       <span className="text-white text-sm px-4">
-                        8 billion tonnes CO2
+                        2.5 billion tonnes CO2
                       </span>
                     </motion.div>
                   </div>
                 </div>
 
                 {/* Invention One Threestones Fire */}
-                <div>
+                {/* <div>
                   <div className="flex justify-between mb-2 text-white/90">
                     <span>Invention One Threestones Fire</span>
                   </div>
@@ -109,26 +109,26 @@ export function ImpactSection() {
                       </span>
                     </motion.div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Invention Two Threestone Triangles */}
                 <div>
                   <div className="flex justify-between mb-2 text-white/90">
-                    <span>Invention Two Double Threestones</span>
+                    <span>New Double Threestones Fire</span>
                   </div>
                   <div className="h-10 bg-emerald-200 rounded-full overflow-hidden relative flex">
                     <motion.div
                       className="h-full bg-emerald-600 flex items-center justify-center"
-                      style={{ width: "50%" }}
+                      style={{ width: "100%" }}
                       initial={{ width: 0 }}
-                      animate={isInView ? { width: "50%" } : {}}
+                      animate={isInView ? { width: "100%" } : {}}
                       transition={{ duration: 1, delay: 0.7 }}
                     >
                       <span className="text-white text-sm px-2">
-                        4 billion tonnes
+                        1.25 billion tonnes
                       </span>
                     </motion.div>
-                    <motion.div
+                    {/* <motion.div
                       className="h-full bg-emerald-700 flex items-center justify-center"
                       style={{ width: "50%" }}
                       initial={{ width: 0 }}
@@ -138,7 +138,7 @@ export function ImpactSection() {
                       <span className="text-white text-sm px-2">
                         4 billion tonnes
                       </span>
-                    </motion.div>
+                    </motion.div> */}
                   </div>
                 </div>
               </div>
