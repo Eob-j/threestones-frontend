@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
-import certificateImage from "/assets/Final_sample HVRC.jpg";
+import certificateImage from "/assets/Cert.png";
 
 export function CertificateSection() {
   const termsLink =
@@ -52,7 +52,9 @@ export function CertificateSection() {
             <p className="text-lg text-white/90 leading-8 mb-8">
               The buyer and seller can use this certificate as a trust signal
               that the product aligns with our documented and field-tested
-              videos.
+              videos. Carbon credits are also available for purchase, with 0.1
+              tonne of CO₂e available for £5 and 1 tonne of CO₂e available for
+              £50.
             </p>
 
             <a
