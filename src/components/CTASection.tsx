@@ -175,7 +175,7 @@ export function CTASection() {
             />
 
             {/* Actual button */}
-            <Button
+            {/* <Button
               size="lg"
               onClick={handleIgniteClick}
               className="
@@ -192,7 +192,7 @@ export function CTASection() {
               "
             >
               Ignite Threestones Fire
-            </Button>
+            </Button> */}
           </motion.div>
 
           {/* Trust Indicators */}
